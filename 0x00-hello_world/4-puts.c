@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/*main is the program that is run and returns 0 of executed properly otherwise a 1*/
+/*main - is the program that is run and 
+ * returns 0 when executed properly otherwise it may give 1 which means an error
+ */
 
 int main(void)
 {
