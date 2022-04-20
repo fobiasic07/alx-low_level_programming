@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * rev_string - prints reversed string, followed by a new line
- * @s: pointer to the string to print
+ * puts2 - prints a string, followed by a new line,
+ * @str: pointer to the string to print
  * Return: void
 */
 
