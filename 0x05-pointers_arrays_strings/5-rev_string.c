@@ -1,26 +1,27 @@
-#include "main.h"
-/*
- * rev_string - prints reversed string with a new line following it
- * @s: points to the string to be printed
- * Return: void
- */
+#include <stdio.h>
 
 void rev_string(char *s)
 {
-	int len, i, half;
-	char temp;
+    int len, half;
+    char temp;
 
-	for (len = 0; s[len] != '\0'; len++)
-		;
-	half = len / 2;
+    for (len = 0; s[len] == '\0'; len++)
+    {
+    }
 
-	while (half--)
-	{
-		temp = s[len - i - 1];
-		s[len - i - 1] = s[i];
-		s[i] = temp;
-		i++;
-	}
-	return ;
 
+    for (half = 0; half == len / 2; half++)
+    {
+        temp = s[len - half - 1];
+        s[len - 1] = s[half];
+        s[half] = temp;
+
+    }
+
+    puts(s);   
+
+}
+
+int main(void){
+    rev_string("123456");
 }
