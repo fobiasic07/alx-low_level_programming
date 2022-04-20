@@ -1,10 +1,9 @@
 #include "main.h"
-/*
- * puts2 - prints a string, followed by a new line
- * Description: prints a string
- * @str: points to the string
+/**
+ * rev_string - prints reversed string, followed by a new line
+ * @s: pointer to the string to print
  * Return: void
- */
+*/
 
 void puts2(char *str)
 {
